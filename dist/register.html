@@ -9,7 +9,7 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>MERN Again!</title>
+    <title>MERN Register!</title>
 </head>
 
 <body>
@@ -26,20 +26,29 @@
             <li><a href="login.html">Login</a></li>
         </ul>
     </nav>
-    <section class="landing">
-        <div class="dark-overlay">
-            <div class="landing-inner">
-                <h1 class="x-large">
-                    The Operation
-                </h1>
-                <p class="lead">Create developer profile/portfolio</p>
-                <div class="buttons">
-                    <a href="register.html" class="btn btn-primary">Register</a>
-                    <a href="login.html" class="btn">Login</a>
-                </div>
+    <section class="container">
+        <h1 class="large text-primary">Sign Up</h1>
+        <p class="lead"><i class="fa fa-user"></i>Create Your Account</p>
+        <form class="form" action="dashboard.html">
+            <div class="form-group">
+                <input type="text" placeholder="Name" />
             </div>
-        </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email Address" />
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Create Password" minlength="6" />
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Confirm Password" minlength="6" />
+            </div>
+            <input type="submit" value="Register" class="btn btn-primary" />
+            <p class="my-1">
+                Already have an account?<a href="login.html">Sign In</a>
+            </p>
+        </form>
     </section>
+
 </body>
 
 </html>
