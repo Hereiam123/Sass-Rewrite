@@ -1,0 +1,20 @@
+{
+  "name": "mern-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hereiam123/Sass-Rewrite.git"
+  },
+  "author": "Brian De Maio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hereiam123/Sass-Rewrite/issues"
+  },
+  "homepage": "https://github.com/Hereiam123/Sass-Rewrite#readme"
+}
