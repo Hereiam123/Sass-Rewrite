@@ -345,3 +345,16 @@ img {
       .profile-grid .profile-github .repo > div:last-child {
         flex: 3;
         flex-basis: 20%; }
+
+.post-form-header {
+  padding: 0.5rem; }
+
+.post {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 2rem;
+  align-items: center; }
+  .post > div:first-child {
+    text-align: center; }
+  .post img {
+    width: 150px; }
